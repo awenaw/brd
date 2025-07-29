@@ -2,6 +2,16 @@
 """
 Python UDP广播示例
 演示BROADCAST网络中的UDP广播功能
+
+# 机器A (192.168.3.10)
+python3 brd.py receiver
+
+# 机器B (192.168.3.11) 
+python3 brd.py receiver
+
+# 机器C (192.168.3.12)
+python3 brd.py sender
+
 """
 
 import socket
